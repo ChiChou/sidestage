@@ -1,0 +1,317 @@
+{
+  "appName": {
+    "message": "SideStage: cola de karaoke y reproductor en segunda pantalla"
+  },
+  "appShortName": {
+    "message": "SideStage"
+  },
+  "controllerWaiting": {
+    "message": "La reproducción se controla desde otro panel de SideStage. Ciérralo para continuar aquí."
+  },
+  "controllerFailed": {
+    "message": "SideStage no se ha podido iniciar. Cierra el panel y ábrelo de nuevo para volver a intentarlo."
+  },
+  "fileImportFailed": {
+    "message": "No se han podido añadir los archivos. Comprueba el espacio disponible e inténtalo de nuevo."
+  },
+  "fileCleanupFailed": {
+    "message": "No se han podido eliminar los archivos que ya no se usan. Cierra el panel y ábrelo de nuevo para volver a intentarlo."
+  },
+  "playbackPosition": {
+    "message": "Posición de reproducción"
+  },
+  "volume": {
+    "message": "Volumen"
+  },
+  "display": {
+    "message": "Pantalla"
+  },
+  "reorderHint": {
+    "message": "Pulsa Alt+↑ o Alt+↓ para mover este elemento"
+  },
+  "appDesc": {
+    "message": "Cola de karaoke en el panel lateral. Añade vídeos de YouTube y canciones locales, indica quién canta y reprodúcelas en una TV."
+  },
+  "cmdNext": {
+    "message": "Empezar o pasar a la siguiente canción"
+  },
+  "cmdTogglePlay": {
+    "message": "Pausar o reanudar la reproducción"
+  },
+  "stPlaying": {
+    "message": "Reproduciendo"
+  },
+  "next": {
+    "message": "Siguiente canción"
+  },
+  "nextBridge": {
+    "message": "Iniciar intermedio"
+  },
+  "start": {
+    "message": "Empezar a cantar"
+  },
+  "nothingQueued": {
+    "message": "No hay canciones en cola"
+  },
+  "playBridge": {
+    "message": "Iniciar intermedio"
+  },
+  "queueEmpty": {
+    "message": "No hay canciones en cola"
+  },
+  "upNext": {
+    "message": "A continuación"
+  },
+  "queueIsEmpty": {
+    "message": "No hay canciones en cola"
+  },
+  "notPlaying": {
+    "message": "Cuando quieras, empezamos"
+  },
+  "nothingPlaying": {
+    "message": "No se está reproduciendo nada"
+  },
+  "play": {
+    "message": "Reproducir"
+  },
+  "pause": {
+    "message": "Pausar"
+  },
+  "prevSong": {
+    "message": "Canción anterior (Shift+←)"
+  },
+  "pauseResume": {
+    "message": "Pausar / reanudar (P)"
+  },
+  "spaceHint": {
+    "message": "Espacio"
+  },
+  "openYouTube": {
+    "message": "Abrir YouTube"
+  },
+  "upcoming": {
+    "message": "En cola"
+  },
+  "sung": {
+    "message": "Cantadas"
+  },
+  "bridges": {
+    "message": "Intermedios"
+  },
+  "bridgeSwitch": {
+    "message": "Intermedios entre canciones"
+  },
+  "clearList": {
+    "message": "Vaciar lista"
+  },
+  "clearAllUpcoming": {
+    "message": "Vaciar la cola ($1)"
+  },
+  "clearAllSung": {
+    "message": "Borrar canciones cantadas ($1)"
+  },
+  "clearAllBridges": {
+    "message": "Borrar todos los intermedios ($1)"
+  },
+  "bedVolume": {
+    "message": "Volumen de fondo"
+  },
+  "autoContinue": {
+    "message": "Siguiente canción en"
+  },
+  "off": {
+    "message": "No"
+  },
+  "seconds": {
+    "message": "s"
+  },
+  "screenTitle": {
+    "message": "Título en pantalla"
+  },
+  "onlyAudio": {
+    "message": "Elige un archivo de audio o una imagen para el intermedio."
+  },
+  "onlyMedia": {
+    "message": "Elige un archivo de audio o vídeo para añadirlo a la cola."
+  },
+  "dropMediaQueue": {
+    "message": "Suelta aquí archivos de audio o vídeo para añadirlos a la cola"
+  },
+  "filesQueued": {
+    "message": "$1 archivos en cola"
+  },
+  "noVideoDropped": {
+    "message": "No se ha encontrado ningún enlace a un vídeo de YouTube. Prueba a arrastrar el enlace de un vídeo."
+  },
+  "dropAudio": {
+    "message": "Suelta aquí audio o imágenes para añadir un intermedio"
+  },
+  "dropLinkBridge": {
+    "message": "Suelta aquí un enlace de YouTube para añadir un intermedio"
+  },
+  "dropLinkQueue": {
+    "message": "Suelta aquí un enlace de YouTube para añadirlo a la cola"
+  },
+  "actLink": {
+    "message": "Enlace de YouTube"
+  },
+  "actLocal": {
+    "message": "Elegir archivos"
+  },
+  "actTab": {
+    "message": "Vídeo de la pestaña actual"
+  },
+  "addLink": {
+    "message": "Añadir un enlace de YouTube"
+  },
+  "addBridge": {
+    "message": "Añadir un intermedio"
+  },
+  "close": {
+    "message": "Cerrar"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "ok": {
+    "message": "Añadir"
+  },
+  "linkPlaceholder": {
+    "message": "Pega un enlace o ID de YouTube"
+  },
+  "bridgePlaceholder": {
+    "message": "Pega un enlace o ID de YouTube"
+  },
+  "emptyUpcoming1": {
+    "message": "La cola está vacía. Añade una canción con + o arrastra aquí un enlace o archivo."
+  },
+  "emptySung": {
+    "message": "Aquí aparecerán las canciones ya cantadas."
+  },
+  "emptyBridges1": {
+    "message": "Añade música o imágenes para los intermedios."
+  },
+  "whoSings": {
+    "message": "Añadir cantante"
+  },
+  "changeSinger": {
+    "message": "Cambiar cantante"
+  },
+  "whoSinging": {
+    "message": "¿Quién canta?"
+  },
+  "nextUp": {
+    "message": "Mover al principio"
+  },
+  "remove": {
+    "message": "Quitar"
+  },
+  "requeue": {
+    "message": "Volver a añadir a la cola"
+  },
+  "dblClickPlay": {
+    "message": "Doble clic para reproducir ahora"
+  },
+  "dblClickBridge": {
+    "message": "Doble clic para iniciar este intermedio"
+  },
+  "cutToNow": {
+    "message": "Reproducir ahora"
+  },
+  "playingAt": {
+    "message": "Reproduciendo: $1"
+  },
+  "upNextAt": {
+    "message": "A continuación, desde $1"
+  },
+  "resumesAt": {
+    "message": "Se reanuda desde $1"
+  },
+  "windowed": {
+    "message": "En ventana (sin segunda pantalla)"
+  },
+  "playerClosed": {
+    "message": "Reproductor cerrado"
+  },
+  "mainDisplay": {
+    "message": "(principal)"
+  },
+  "fullscreenOn": {
+    "message": "Salir de pantalla completa"
+  },
+  "fullscreenOff": {
+    "message": "Ver a pantalla completa"
+  },
+  "showPlayer": {
+    "message": "Abrir reproductor"
+  },
+  "language": {
+    "message": "Idioma"
+  },
+  "langAuto": {
+    "message": "Seguir el sistema"
+  },
+  "skin": {
+    "message": "Aspecto"
+  },
+  "skinStage": {
+    "message": "Escenario"
+  },
+  "skinDark": {
+    "message": "Oscuro"
+  },
+  "skinLight": {
+    "message": "Claro"
+  },
+  "notYouTube": {
+    "message": "No se ha encontrado ningún vídeo de YouTube. Prueba con el enlace o ID de un vídeo."
+  },
+  "noActiveTab": {
+    "message": "No hay ninguna pestaña activa. Abre un vídeo de YouTube e inténtalo de nuevo."
+  },
+  "failed": {
+    "message": "Algo ha salido mal. Inténtalo de nuevo."
+  },
+  "queuedX": {
+    "message": "En cola: $1"
+  },
+  "alreadyQueued": {
+    "message": "Ya en cola"
+  },
+  "alreadyQueuedX": {
+    "message": "Ya está en la cola: $1"
+  },
+  "addAnyway": {
+    "message": "Añadir igualmente"
+  },
+  "dismiss": {
+    "message": "Descartar"
+  },
+  "bridgeAddedX": {
+    "message": "Intermedio añadido: $1"
+  },
+  "fileAdded": {
+    "message": "1 archivo añadido a los intermedios"
+  },
+  "filesAdded": {
+    "message": "$1 archivos añadidos a los intermedios"
+  },
+  "queueBtn": {
+    "message": "+ A la cola"
+  },
+  "queueThisSong": {
+    "message": "+ Añadir a la cola"
+  },
+  "queuedShort": {
+    "message": "✓ En cola"
+  },
+  "openFirst": {
+    "message": "Abre SideStage primero"
+  },
+  "karaokeNight": {
+    "message": "Noche de karaoke"
+  },
+  "audioBlocked": {
+    "message": "Pulsa Reproducir en SideStage para activar el audio"
+  }
+}

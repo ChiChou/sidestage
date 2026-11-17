@@ -1,0 +1,104 @@
+/*
+  Skins. One block per skin, every token in the same order, nothing else in this file.
+  The active skin is `data-skin` on <html>, set by src/lib/skin.ts before the first render.
+  That module also toggles the `dark` class so shadcn's `dark:` variants follow the skin.
+  Any element can carry `data-skin` too: the skin menu's swatches use that to show each skin's colours.
+  Skins are built in only: there is no user-editable CSS yet.
+
+  Tokens beyond the shadcn set:
+    --bridge / --bridge-foreground   accent for break music (the "bridges"), mirrors --primary
+    --highlight                      singer names, the upcoming count, the wordmark
+    --glow / --bridge-glow           drop shadow colour under the two floating add buttons
+    --backdrop                       background-image behind the whole panel, or `none`
+*/
+
+:root {
+  --radius: 0.625rem;
+}
+
+/* Stage (default): deep violet night, hot pink primary, amber highlights. */
+:root,
+[data-skin="stage"] {
+  --background: oklch(0.17 0.02 290);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.21 0.02 290);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.21 0.02 290);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.68 0.22 355);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.26 0.02 290);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.26 0.02 290);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.26 0.02 290);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.68 0.22 355);
+  --bridge: oklch(0.72 0.17 294);
+  --bridge-foreground: oklch(0.985 0 0);
+  --highlight: oklch(0.828 0.189 84.429);
+  --glow: oklch(0.68 0.22 355 / 45%);
+  --bridge-glow: oklch(0.61 0.25 293 / 45%);
+  --backdrop:
+    radial-gradient(70% 25% at 0% 0%, oklch(0.68 0.22 355 / 22%), transparent 70%),
+    radial-gradient(60% 25% at 100% 100%, oklch(0.7 0.15 265 / 14%), transparent 70%);
+}
+
+/* Dark: cool graphite, cyan primary, lavender breaks, a faint cyan wash in the corner. */
+[data-skin="dark"] {
+  --background: oklch(0.15 0.01 250);
+  --foreground: oklch(0.975 0.005 250);
+  --card: oklch(0.205 0.012 250);
+  --card-foreground: oklch(0.975 0.005 250);
+  --popover: oklch(0.205 0.012 250);
+  --popover-foreground: oklch(0.975 0.005 250);
+  --primary: oklch(0.76 0.13 215);
+  --primary-foreground: oklch(0.15 0.02 230);
+  --secondary: oklch(0.27 0.015 250);
+  --secondary-foreground: oklch(0.975 0.005 250);
+  --muted: oklch(0.27 0.015 250);
+  --muted-foreground: oklch(0.71 0.015 250);
+  --accent: oklch(0.27 0.015 250);
+  --accent-foreground: oklch(0.975 0.005 250);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.76 0.13 215);
+  --bridge: oklch(0.76 0.11 300);
+  --bridge-foreground: oklch(0.17 0.03 300);
+  --highlight: oklch(0.85 0.12 85);
+  --glow: oklch(0.76 0.13 215 / 40%);
+  --bridge-glow: oklch(0.76 0.11 300 / 40%);
+  --backdrop: radial-gradient(60% 22% at 100% 0%, oklch(0.76 0.13 215 / 10%), transparent 70%);
+}
+
+/* Light: paper white, indigo primary, teal breaks, a faint indigo wash in the corner. */
+[data-skin="light"] {
+  --background: oklch(0.995 0.003 275);
+  --foreground: oklch(0.17 0.02 275);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.17 0.02 275);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.17 0.02 275);
+  --primary: oklch(0.5 0.19 275);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.96 0.008 275);
+  --secondary-foreground: oklch(0.25 0.03 275);
+  --muted: oklch(0.96 0.008 275);
+  --muted-foreground: oklch(0.52 0.02 275);
+  --accent: oklch(0.96 0.008 275);
+  --accent-foreground: oklch(0.25 0.03 275);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.91 0.012 275);
+  --input: oklch(0.91 0.012 275);
+  --ring: oklch(0.5 0.19 275);
+  --bridge: oklch(0.55 0.12 180);
+  --bridge-foreground: oklch(0.985 0 0);
+  --highlight: oklch(0.6 0.15 50);
+  --glow: oklch(0.5 0.19 275 / 30%);
+  --bridge-glow: oklch(0.55 0.12 180 / 30%);
+  --backdrop: radial-gradient(60% 22% at 100% 0%, oklch(0.5 0.19 275 / 7%), transparent 70%);
+}

@@ -1,0 +1,22 @@
+.kdj-btn {
+  position: absolute; top: 6px; left: 6px; z-index: 2147483000;
+  padding: 4px 9px; border: 0; border-radius: 999px;
+  background: #ff3d7f; color: #fff; font: 700 12px/1 -apple-system, sans-serif;
+  letter-spacing: .02em; cursor: pointer; opacity: 0; transition: opacity .15s, transform .15s;
+  box-shadow: 0 2px 8px rgba(0,0,0,.5);
+}
+*:hover > .kdj-btn, .kdj-btn:hover { opacity: 1; }
+.kdj-btn:hover { transform: scale(1.08); }
+.kdj-btn.kdj-done { background: #27c26a; opacity: 1; }
+.kdj-btn.kdj-err { background: #666; opacity: 1; }
+.kdj-fab {
+  position: fixed; right: 24px; bottom: 24px; z-index: 2147483000;
+  padding: 14px 20px; border: 0; border-radius: 999px;
+  background: #ff3d7f; color: #fff; font: 800 15px/1 -apple-system, sans-serif;
+  cursor: pointer; box-shadow: 0 8px 24px rgba(255,61,127,.45);
+  transition: transform .15s, background .2s;
+}
+.kdj-fab:hover { transform: translateY(-2px) scale(1.03); }
+.kdj-fab.kdj-done { background: #27c26a; }
+.kdj-fab.kdj-err { background: #666; }
+.kdj-off .kdj-btn, .kdj-off .kdj-fab { display: none !important; }

@@ -1,0 +1,317 @@
+{
+  "appName": {
+    "message": "SideStage：K 歌点歌与第二屏幕播放"
+  },
+  "appShortName": {
+    "message": "SideStage"
+  },
+  "controllerWaiting": {
+    "message": "另一个 SideStage 面板正在控制播放。关闭那个面板后，就可以在这里继续操作。"
+  },
+  "controllerFailed": {
+    "message": "SideStage 未能启动。请关闭面板后重新打开。"
+  },
+  "fileImportFailed": {
+    "message": "文件添加失败。请检查剩余存储空间后重试。"
+  },
+  "fileCleanupFailed": {
+    "message": "未能清理不再使用的文件。请关闭面板后重新打开。"
+  },
+  "playbackPosition": {
+    "message": "播放进度"
+  },
+  "volume": {
+    "message": "音量"
+  },
+  "display": {
+    "message": "显示器"
+  },
+  "reorderHint": {
+    "message": "按 Alt+↑ 或 Alt+↓ 调整顺序"
+  },
+  "appDesc": {
+    "message": "在侧边栏管理 K 歌歌单。添加 YouTube 视频或本地歌曲，标注演唱者，在电视或第二块屏幕上播放。"
+  },
+  "cmdNext": {
+    "message": "开始播放或切到下一首"
+  },
+  "cmdTogglePlay": {
+    "message": "暂停或继续播放"
+  },
+  "stPlaying": {
+    "message": "播放中"
+  },
+  "next": {
+    "message": "下一首"
+  },
+  "nextBridge": {
+    "message": "开始暖场"
+  },
+  "start": {
+    "message": "开始唱歌"
+  },
+  "nothingQueued": {
+    "message": "还没点歌"
+  },
+  "playBridge": {
+    "message": "开始暖场"
+  },
+  "queueEmpty": {
+    "message": "还没点歌"
+  },
+  "upNext": {
+    "message": "接下来"
+  },
+  "queueIsEmpty": {
+    "message": "还没点歌"
+  },
+  "notPlaying": {
+    "message": "准备好了就开唱吧"
+  },
+  "nothingPlaying": {
+    "message": "暂无播放内容"
+  },
+  "play": {
+    "message": "播放"
+  },
+  "pause": {
+    "message": "暂停"
+  },
+  "prevSong": {
+    "message": "上一首 (Shift+←)"
+  },
+  "pauseResume": {
+    "message": "暂停 / 继续 (P)"
+  },
+  "spaceHint": {
+    "message": "空格"
+  },
+  "openYouTube": {
+    "message": "打开 YouTube"
+  },
+  "upcoming": {
+    "message": "待唱"
+  },
+  "sung": {
+    "message": "已唱"
+  },
+  "bridges": {
+    "message": "暖场"
+  },
+  "bridgeSwitch": {
+    "message": "歌曲之间播放暖场内容"
+  },
+  "clearList": {
+    "message": "清空列表"
+  },
+  "clearAllUpcoming": {
+    "message": "清空待唱歌曲（$1）"
+  },
+  "clearAllSung": {
+    "message": "清空已唱歌曲（$1）"
+  },
+  "clearAllBridges": {
+    "message": "清空暖场列表（$1）"
+  },
+  "bedVolume": {
+    "message": "背景音量"
+  },
+  "autoContinue": {
+    "message": "下一首开始前等待"
+  },
+  "off": {
+    "message": "关闭"
+  },
+  "seconds": {
+    "message": "秒"
+  },
+  "screenTitle": {
+    "message": "大屏标题"
+  },
+  "onlyAudio": {
+    "message": "请选择音频文件或图片作为暖场内容。"
+  },
+  "onlyMedia": {
+    "message": "请选择音频或视频文件加入歌单。"
+  },
+  "dropMediaQueue": {
+    "message": "将音频或视频文件拖到这里，加入歌单"
+  },
+  "filesQueued": {
+    "message": "已将 $1 个文件加入歌单"
+  },
+  "noVideoDropped": {
+    "message": "没有找到 YouTube 视频链接，请试着拖入视频链接。"
+  },
+  "dropAudio": {
+    "message": "将音频或图片拖到这里，添加暖场内容"
+  },
+  "dropLinkBridge": {
+    "message": "将 YouTube 链接拖到这里，添加暖场内容"
+  },
+  "dropLinkQueue": {
+    "message": "将 YouTube 链接拖到这里，加入歌单"
+  },
+  "actLink": {
+    "message": "YouTube 链接"
+  },
+  "actLocal": {
+    "message": "选择文件"
+  },
+  "actTab": {
+    "message": "添加当前视频"
+  },
+  "addLink": {
+    "message": "添加 YouTube 链接"
+  },
+  "addBridge": {
+    "message": "添加暖场内容"
+  },
+  "close": {
+    "message": "关闭"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "ok": {
+    "message": "添加"
+  },
+  "linkPlaceholder": {
+    "message": "粘贴 YouTube 链接或视频 ID"
+  },
+  "bridgePlaceholder": {
+    "message": "粘贴 YouTube 链接或视频 ID"
+  },
+  "emptyUpcoming1": {
+    "message": "还没点歌。点击 + 添加，或将链接、文件拖到这里。"
+  },
+  "emptySung": {
+    "message": "唱过的歌会显示在这里。"
+  },
+  "emptyBridges1": {
+    "message": "添加音乐或图片，在歌曲之间暖场。"
+  },
+  "whoSings": {
+    "message": "添加演唱者"
+  },
+  "changeSinger": {
+    "message": "更改演唱者"
+  },
+  "whoSinging": {
+    "message": "谁来唱？"
+  },
+  "nextUp": {
+    "message": "移到最前"
+  },
+  "remove": {
+    "message": "移除"
+  },
+  "requeue": {
+    "message": "再唱一次"
+  },
+  "dblClickPlay": {
+    "message": "双击立即播放"
+  },
+  "dblClickBridge": {
+    "message": "双击立即播放这段暖场内容"
+  },
+  "cutToNow": {
+    "message": "立即播放"
+  },
+  "playingAt": {
+    "message": "播放中：$1"
+  },
+  "upNextAt": {
+    "message": "接下来，从 $1 继续"
+  },
+  "resumesAt": {
+    "message": "从 $1 继续"
+  },
+  "windowed": {
+    "message": "窗口模式（未连接第二块屏幕）"
+  },
+  "playerClosed": {
+    "message": "播放器已关闭"
+  },
+  "mainDisplay": {
+    "message": "（主屏）"
+  },
+  "fullscreenOn": {
+    "message": "退出全屏"
+  },
+  "fullscreenOff": {
+    "message": "进入全屏"
+  },
+  "showPlayer": {
+    "message": "打开播放器"
+  },
+  "language": {
+    "message": "语言"
+  },
+  "langAuto": {
+    "message": "跟随系统"
+  },
+  "skin": {
+    "message": "外观"
+  },
+  "skinStage": {
+    "message": "舞台"
+  },
+  "skinDark": {
+    "message": "深色"
+  },
+  "skinLight": {
+    "message": "浅色"
+  },
+  "notYouTube": {
+    "message": "没有找到 YouTube 视频，请输入视频链接或 ID。"
+  },
+  "noActiveTab": {
+    "message": "没有找到当前标签页，请打开一个 YouTube 视频后重试。"
+  },
+  "failed": {
+    "message": "操作未成功，请重试。"
+  },
+  "queuedX": {
+    "message": "已加入歌单：$1"
+  },
+  "alreadyQueued": {
+    "message": "已在歌单中"
+  },
+  "alreadyQueuedX": {
+    "message": "已在歌单中：$1"
+  },
+  "addAnyway": {
+    "message": "仍然添加"
+  },
+  "dismiss": {
+    "message": "忽略"
+  },
+  "bridgeAddedX": {
+    "message": "已添加暖场内容：$1"
+  },
+  "fileAdded": {
+    "message": "已添加 1 个暖场文件"
+  },
+  "filesAdded": {
+    "message": "已添加 $1 个暖场文件"
+  },
+  "queueBtn": {
+    "message": "+ 点歌"
+  },
+  "queueThisSong": {
+    "message": "+ 点这首歌"
+  },
+  "queuedShort": {
+    "message": "✓ 已点"
+  },
+  "openFirst": {
+    "message": "请先打开 SideStage"
+  },
+  "karaokeNight": {
+    "message": "K 歌之夜"
+  },
+  "audioBlocked": {
+    "message": "请在 SideStage 中点击播放，开启声音"
+  }
+}

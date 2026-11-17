@@ -1,0 +1,25 @@
+/* Injected into the YouTube watch page on the TV window so the player fills it, like YouTube's own
+   fullscreen. It only sizes the player; ads, disclosures, controls and YouTube's dialogs stay untouched. */
+html, body, ytd-app { background: #000 !important; overflow: hidden !important; }
+
+#movie_player, #player, #player-container, #player-container-outer, #player-container-inner,
+#ytd-player, ytd-player, #full-bleed-container, #player-wide-container, #player-full-bleed-container {
+  position: fixed !important;
+  top: 0 !important; left: 0 !important;
+  width: 100vw !important; height: 100vh !important;
+  max-width: none !important; max-height: none !important;
+  min-width: 0 !important; min-height: 0 !important;
+  margin: 0 !important; padding: 0 !important;
+  border-radius: 0 !important;
+  /* above the page and the masthead, below YouTube's popups and dialogs */
+  z-index: 2100 !important;
+  background: #000 !important;
+}
+
+.html5-video-container { width: 100% !important; height: 100% !important; }
+video.html5-main-video {
+  width: 100vw !important; height: 100vh !important;
+  left: 0 !important; top: 0 !important;
+  object-fit: contain !important;
+}
+.ytp-chrome-bottom { width: calc(100% - 24px) !important; left: 12px !important; }

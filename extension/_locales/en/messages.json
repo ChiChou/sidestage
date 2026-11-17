@@ -1,0 +1,317 @@
+{
+  "appName": {
+    "message": "SideStage: Karaoke Queue and Second-Screen Player"
+  },
+  "appShortName": {
+    "message": "SideStage"
+  },
+  "controllerWaiting": {
+    "message": "Another SideStage panel is controlling playback. Close that panel to continue here."
+  },
+  "controllerFailed": {
+    "message": "SideStage couldn’t start. Close this panel and open it again to try again."
+  },
+  "fileImportFailed": {
+    "message": "Couldn’t add these files. Check your available storage and try again."
+  },
+  "fileCleanupFailed": {
+    "message": "Couldn’t remove unused files. Close this panel and open it again to retry."
+  },
+  "playbackPosition": {
+    "message": "Playback position"
+  },
+  "volume": {
+    "message": "Volume"
+  },
+  "display": {
+    "message": "Display"
+  },
+  "reorderHint": {
+    "message": "Press Alt+↑ or Alt+↓ to move this item"
+  },
+  "appDesc": {
+    "message": "Run karaoke from your laptop. Queue YouTube videos and local songs, give everyone a turn, and put the party on the big screen."
+  },
+  "cmdNext": {
+    "message": "Start or skip to the next song"
+  },
+  "cmdTogglePlay": {
+    "message": "Pause or resume playback"
+  },
+  "stPlaying": {
+    "message": "Playing"
+  },
+  "next": {
+    "message": "Next song"
+  },
+  "nextBridge": {
+    "message": "Take a break"
+  },
+  "start": {
+    "message": "Start singing"
+  },
+  "nothingQueued": {
+    "message": "No songs queued"
+  },
+  "playBridge": {
+    "message": "Start a break"
+  },
+  "queueEmpty": {
+    "message": "No songs queued"
+  },
+  "upNext": {
+    "message": "Up next"
+  },
+  "queueIsEmpty": {
+    "message": "No songs queued"
+  },
+  "notPlaying": {
+    "message": "Ready when you are"
+  },
+  "nothingPlaying": {
+    "message": "Nothing playing yet"
+  },
+  "play": {
+    "message": "Play"
+  },
+  "pause": {
+    "message": "Pause"
+  },
+  "prevSong": {
+    "message": "Previous song (Shift+←)"
+  },
+  "pauseResume": {
+    "message": "Pause or resume (P)"
+  },
+  "spaceHint": {
+    "message": "Space"
+  },
+  "openYouTube": {
+    "message": "Open YouTube"
+  },
+  "upcoming": {
+    "message": "Queue"
+  },
+  "sung": {
+    "message": "Sung"
+  },
+  "bridges": {
+    "message": "Breaks"
+  },
+  "bridgeSwitch": {
+    "message": "Take breaks between songs"
+  },
+  "clearList": {
+    "message": "Clear list"
+  },
+  "clearAllUpcoming": {
+    "message": "Clear queue ($1)"
+  },
+  "clearAllSung": {
+    "message": "Clear sung songs ($1)"
+  },
+  "clearAllBridges": {
+    "message": "Clear breaks ($1)"
+  },
+  "bedVolume": {
+    "message": "Background volume"
+  },
+  "autoContinue": {
+    "message": "Start next song after"
+  },
+  "off": {
+    "message": "Off"
+  },
+  "seconds": {
+    "message": "s"
+  },
+  "screenTitle": {
+    "message": "On-screen title"
+  },
+  "onlyAudio": {
+    "message": "Choose an audio file or image for a break."
+  },
+  "onlyMedia": {
+    "message": "Choose an audio or video file to add to the queue."
+  },
+  "dropMediaQueue": {
+    "message": "Drop audio or video files here to queue them"
+  },
+  "filesQueued": {
+    "message": "$1 files queued"
+  },
+  "noVideoDropped": {
+    "message": "No YouTube video link found. Try dropping a link to a video."
+  },
+  "dropAudio": {
+    "message": "Drop audio files or images here to add a break"
+  },
+  "dropLinkBridge": {
+    "message": "Drop a YouTube link here to add a break"
+  },
+  "dropLinkQueue": {
+    "message": "Drop a YouTube link here to queue it"
+  },
+  "actLink": {
+    "message": "YouTube link"
+  },
+  "actLocal": {
+    "message": "Choose files"
+  },
+  "actTab": {
+    "message": "Video from current tab"
+  },
+  "addLink": {
+    "message": "Add a YouTube link"
+  },
+  "addBridge": {
+    "message": "Add a break"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "ok": {
+    "message": "Add"
+  },
+  "linkPlaceholder": {
+    "message": "Paste a YouTube link or video ID"
+  },
+  "bridgePlaceholder": {
+    "message": "Paste a YouTube link or video ID"
+  },
+  "emptyUpcoming1": {
+    "message": "No songs queued yet. Add one with + or drop a link or file here."
+  },
+  "emptySung": {
+    "message": "Songs you’ve sung will appear here."
+  },
+  "emptyBridges1": {
+    "message": "Add music or an image to play between songs."
+  },
+  "whoSings": {
+    "message": "Add singer"
+  },
+  "changeSinger": {
+    "message": "Change singer"
+  },
+  "whoSinging": {
+    "message": "Who's singing?"
+  },
+  "nextUp": {
+    "message": "Move to top"
+  },
+  "remove": {
+    "message": "Remove"
+  },
+  "requeue": {
+    "message": "Add to queue again"
+  },
+  "dblClickPlay": {
+    "message": "Double-click to play now"
+  },
+  "dblClickBridge": {
+    "message": "Double-click to start this break"
+  },
+  "cutToNow": {
+    "message": "Play now"
+  },
+  "playingAt": {
+    "message": "Playing: $1"
+  },
+  "upNextAt": {
+    "message": "Up next, resumes at $1"
+  },
+  "resumesAt": {
+    "message": "Resumes at $1"
+  },
+  "windowed": {
+    "message": "Windowed (no second screen)"
+  },
+  "playerClosed": {
+    "message": "Player closed"
+  },
+  "mainDisplay": {
+    "message": "(main)"
+  },
+  "fullscreenOn": {
+    "message": "Exit full screen"
+  },
+  "fullscreenOff": {
+    "message": "Enter full screen"
+  },
+  "showPlayer": {
+    "message": "Open player"
+  },
+  "language": {
+    "message": "Language"
+  },
+  "langAuto": {
+    "message": "Follow system"
+  },
+  "skin": {
+    "message": "Skin"
+  },
+  "skinStage": {
+    "message": "Stage"
+  },
+  "skinDark": {
+    "message": "Dark"
+  },
+  "skinLight": {
+    "message": "Light"
+  },
+  "notYouTube": {
+    "message": "Couldn’t find a YouTube video. Try a video link or ID."
+  },
+  "noActiveTab": {
+    "message": "No active tab found. Open a YouTube video and try again."
+  },
+  "failed": {
+    "message": "That didn’t work. Please try again."
+  },
+  "queuedX": {
+    "message": "Queued: $1"
+  },
+  "alreadyQueued": {
+    "message": "Already queued"
+  },
+  "alreadyQueuedX": {
+    "message": "Already in the queue: $1"
+  },
+  "addAnyway": {
+    "message": "Add anyway"
+  },
+  "dismiss": {
+    "message": "Dismiss"
+  },
+  "bridgeAddedX": {
+    "message": "Added to breaks: $1"
+  },
+  "fileAdded": {
+    "message": "1 file added to breaks"
+  },
+  "filesAdded": {
+    "message": "$1 files added to breaks"
+  },
+  "queueBtn": {
+    "message": "+ Queue"
+  },
+  "queueThisSong": {
+    "message": "+ Queue this song"
+  },
+  "queuedShort": {
+    "message": "✓ Queued"
+  },
+  "openFirst": {
+    "message": "Open SideStage first"
+  },
+  "karaokeNight": {
+    "message": "Karaoke Night"
+  },
+  "audioBlocked": {
+    "message": "Press Play in SideStage to enable audio"
+  }
+}
